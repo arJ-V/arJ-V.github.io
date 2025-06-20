@@ -1,0 +1,64 @@
+.page-content {
+    padding-top: 3rem;
+    max-width: 700px;
+}
+
+.page-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.page-subtitle {
+    font-size: 1.2rem;
+    color: #c0c0c0;
+    margin-bottom: 4rem;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.project-item {
+    border-bottom: 1px solid #404040;
+    padding-bottom: 2rem;
+}
+
+.project-item:last-child {
+    border-bottom: none;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #c0c0c0;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.project-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.project-link {
+    color: #e0e0e0;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #ffffff;
+}
